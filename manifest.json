@@ -1,0 +1,18 @@
+{
+  "name": "PP Ark Consult and Investment",
+  "short_name": "PP Ark Consult",
+  "description": "Professional advisory, accounting, tax, and operational support for enterprises and SMEs in Accra, Ghana.",
+  "start_url": "https://pparkconsult.com/",
+  "scope": "https://pparkconsult.com/",
+  "display": "standalone",
+  "background_color": "#F7F8FA",
+  "theme_color": "#2F3E8F",
+  "icons": [
+    {
+      "src": "public/logo.png",
+      "sizes": "1024x367",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

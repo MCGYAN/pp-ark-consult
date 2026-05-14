@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PP Ark Consult and Investment provides professional advisory, accounting, tax, and operational support to enterprises and SMEs in Accra, Ghana."
+    />
+    <meta
+      name="keywords"
+      content="PP Ark Consult and Investment, SME consulting Ghana, financial advisory Accra, accounting, tax support"
+    />
+    <link rel="canonical" href="https://pparkconsult.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pparkconsult.com" />
+    <meta property="og:title" content="PP Ark Consult &amp; Investment | Ghana" />
+    <meta
+      property="og:description"
+      content="Professional business advisory, finance, compliance, and operational support for organisations in Accra."
+    />
+    <meta property="og:image" content="https://pparkconsult.com/public/og-image.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PP Ark Consult &amp; Investment | Ghana" />
+    <meta name="twitter:description" content="Professional consulting and advisory services for enterprises and growing SMEs in Ghana." />
+    <meta name="twitter:image" content="https://pparkconsult.com/public/og-image.svg" />
+    <meta name="theme-color" content="#2F3E8F" />
+    <title>PP Ark Consult &amp; Investment | Professional Advisory &amp; Business Services, Ghana</title>
+    <link rel="icon" href="public/logo.png" type="image/png" />
+    <link rel="manifest" href="/manifest.json" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "PP Ark Consult and Investment",
+        "url": "https://pparkconsult.com",
+        "logo": "https://pparkconsult.com/public/logo.png",
+        "telephone": "+233202776330",
+        "foundingDate": "2022",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lartebiokorshie",
+          "addressRegion": "Accra",
+          "addressCountry": "GH"
+        },
+        "areaServed": "Ghana",
+        "serviceType": [
+          "Cleaning Services",
+          "Financial Advisory",
+          "Financial Accounting",
+          "Small Business Tax Support",
+          "Financial Planning",
+          "Business Consulting",
+          "Management Consulting",
+          "SME Advisory Services"
+        ]
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+          },
+          extend: {
+            colors: {
+              primary: "#1e293b", // Deep executive slate
+              primaryLight: "#334155",
+              secondary: "#2e8b83", // Muted teal
+              accent: "#d6a84f", // Soft amber gold
+              surface: "#f8fafc",
+              ink: "#0f172a",
+              muted: "#64748b",
+              line: "rgba(255, 255, 255, 0.4)",
+              glass: "rgba(255, 255, 255, 0.65)",
+              glassHover: "rgba(255, 255, 255, 0.85)",
+            },
+            boxShadow: {
+              glass: "0 8px 32px 0 rgba(31, 38, 135, 0.07)",
+              glassHover: "0 12px 40px 0 rgba(31, 38, 135, 0.12)",
+              glow: "0 0 20px rgba(214, 168, 79, 0.15)",
+            },
+            animation: {
+              'blob': 'blob 10s infinite',
+              'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+            },
+            keyframes: {
+              blob: {
+                '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                '100%': { transform: 'translate(0px, 0px) scale(1)' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            }
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        background-color: #f8fafc;
+        color: #0f172a;
+        overflow-x: hidden;
+      }
+
+      /* Glassmorphism utilities */
+      .glass-panel {
+        background: var(--color-glass, rgba(255, 255, 255, 0.65));
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+      }
+
+      .glass-card {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.4) 100%);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05);
+        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .glass-card:hover {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.6) 100%);
+        border: 1px solid rgba(255, 255, 255, 1);
+        box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.12), 0 0 20px rgba(214, 168, 79, 0.1);
+        transform: translateY(-4px);
+      }
+
+      .glass-input {
+        background: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        transition: all 0.3s ease;
+      }
+      
+      .glass-input:focus {
+        background: rgba(255, 255, 255, 0.9);
+        border-color: #d6a84f;
+        box-shadow: 0 0 0 4px rgba(214, 168, 79, 0.15);
+      }
+
+      .reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f5f9;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+
+      .hero-image {
+        background-image: url("public/hero-bg.png");
+      }
+    </style>
+  </head>
+  <body class="font-sans antialiased relative">
+    <!-- Animated Background Blobs -->
+    <div class="fixed inset-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
+      <div class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] rounded-full bg-blue-200/40 mix-blend-multiply filter blur-[100px] animate-blob"></div>
+      <div class="absolute top-[20%] right-[-10%] w-[400px] h-[400px] rounded-full bg-teal-200/40 mix-blend-multiply filter blur-[100px] animate-blob animation-delay-2000"></div>
+      <div class="absolute bottom-[-20%] left-[20%] w-[600px] h-[600px] rounded-full bg-amber-100/40 mix-blend-multiply filter blur-[120px] animate-blob animation-delay-4000"></div>
+    </div>
+
+    <!-- Floating Header -->
+    <div class="fixed top-4 inset-x-0 z-50 px-4 sm:px-6 flex justify-center pointer-events-none">
+      <header class="glass-panel w-full max-w-5xl rounded-full px-6 py-3 flex items-center justify-between pointer-events-auto transition-all duration-300" id="main-header">
+        <a href="#home" class="inline-flex shrink-0 items-center gap-2 group" aria-label="PP Ark Consult and Investment home">
+          <img src="public/logo.png" alt="PP Ark Consult and Investment" class="h-9 w-auto sm:h-10 transition-transform duration-300 group-hover:scale-105" />
+        </a>
+        <nav class="hidden items-center gap-8 md:flex" aria-label="Primary">
+          <a href="#about" class="text-sm font-semibold text-primaryLight transition-colors hover:text-accent">About</a>
+          <a href="#services" class="text-sm font-semibold text-primaryLight transition-colors hover:text-accent">Services</a>
+          <a href="#why-us" class="text-sm font-semibold text-primaryLight transition-colors hover:text-accent">Why PP Ark</a>
+          <a href="#industries" class="text-sm font-semibold text-primaryLight transition-colors hover:text-accent">Industries</a>
+        </nav>
+        <div class="flex items-center gap-4">
+          <a
+            href="tel:+233202776330"
+            class="hidden sm:flex items-center justify-center rounded-full bg-primary px-6 py-2.5 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:bg-primaryLight hover:shadow-xl hover:-translate-y-0.5"
+          >
+            Call us
+          </a>
+          <!-- Mobile Menu Button -->
+          <button class="md:hidden p-2 text-primary focus:outline-none" aria-label="Menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </header>
+    </div>
+
+    <main id="home" class="pt-32 pb-16 sm:pt-40 sm:pb-24">
+      <!-- Hero Section -->
+      <section class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-8">
+          <div class="animate-fade-in-up order-2 lg:order-1 z-10">
+            <div class="inline-flex items-center gap-2 rounded-full glass-panel px-4 py-2 text-[11px] font-bold uppercase tracking-[0.2em] text-secondary mb-6 shadow-sm">
+              <span class="relative flex h-2 w-2">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
+              </span>
+              Accra office, established 2022
+            </div>
+            <h1 class="text-4xl font-extrabold leading-[1.15] tracking-tight text-primary sm:text-5xl lg:text-6xl text-balance">
+              Professional advisory &amp; <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">operational support</span> for growing enterprises.
+            </h1>
+            <p class="mt-6 max-w-xl text-lg leading-relaxed text-muted sm:text-xl">
+              We assist owners and management teams with finance, tax, compliance, and day-to-day operations so decisions are evidence-based and execution remains disciplined.
+            </p>
+            <div class="mt-10 flex flex-wrap items-center gap-4">
+              <a
+                href="#contact"
+                class="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:bg-primaryLight hover:shadow-xl hover:-translate-y-1"
+              >
+                Request a consultation
+              </a>
+              <a
+                href="tel:+233202776330"
+                class="inline-flex items-center justify-center rounded-full glass-panel px-8 py-4 text-sm font-bold text-primary transition-all duration-300 hover:bg-white/80 hover:shadow-md hover:-translate-y-1"
+              >
+                <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                Call us &middot; 020 277 6330
+              </a>
+            </div>
+            
+            <div class="mt-12 grid grid-cols-2 gap-6 border-t border-slate-200/60 pt-8 sm:grid-cols-3">
+              <div class="glass-card rounded-2xl p-4 text-center">
+                <p class="text-3xl font-extrabold tabular-nums text-primary">8</p>
+                <p class="mt-1 text-xs font-bold uppercase tracking-wider text-muted">Practice areas</p>
+              </div>
+              <div class="glass-card rounded-2xl p-4 text-center">
+                <p class="text-3xl font-extrabold text-primary">SME</p>
+                <p class="mt-1 text-xs font-bold uppercase tracking-wider text-muted">Client focus</p>
+              </div>
+              <div class="col-span-2 sm:col-span-1 flex items-center justify-center sm:justify-start">
+                <p class="text-sm leading-snug text-muted text-center sm:text-left">
+                  <span class="font-bold text-primary block mb-1">Advise. Plan. Execute.</span> Structured engagement, accountable delivery.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="animate-fade-in-up order-1 lg:order-2 relative" style="animation-delay: 0.2s;">
+            <div class="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-tr from-accent/20 via-transparent to-secondary/20 blur-2xl opacity-60"></div>
+            <figure class="relative overflow-hidden rounded-[2rem] glass-panel p-2 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
+              <div class="hero-image aspect-[4/3] w-full rounded-[1.5rem] bg-cover bg-center shadow-inner relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
+              </div>
+              <figcaption class="absolute bottom-6 left-6 right-6 glass-panel rounded-xl px-6 py-4">
+                <p class="text-xs font-bold uppercase tracking-[0.18em] text-accent">Governance &amp; Clarity</p>
+                <p class="mt-1 text-sm font-semibold text-primary">Sound reporting, disciplined processes, and capacity to scale with confidence.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="relative mt-24 sm:mt-32 py-20">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="glass-card rounded-[2.5rem] p-8 sm:p-12 lg:p-16 reveal">
+            <div class="grid gap-10 lg:grid-cols-12 lg:gap-16 items-center">
+              <div class="lg:col-span-5">
+                <div class="inline-flex items-center gap-2 rounded-full bg-white/50 border border-white/60 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-secondary mb-4">About</div>
+                <h2 class="text-3xl font-extrabold tracking-tight text-primary sm:text-4xl lg:text-[2.5rem] leading-tight">
+                  Client outcomes first.<br/><span class="text-accent">Rigour throughout.</span>
+                </h2>
+                <div class="mt-6 h-1.5 w-16 rounded-full bg-gradient-to-r from-accent to-secondary" aria-hidden="true"></div>
+              </div>
+              <div class="space-y-6 text-lg leading-relaxed text-muted lg:col-span-7">
+                <p class="font-medium text-primary/90 text-xl">
+                  PP Ark Consult and Investment is a Ghanaian professional services firm based in Lartebiokorshie, Accra. We advise enterprises and SMEs on consulting engagements, financial accounting, taxation, and the operational controls that underpin sound governance.
+                </p>
+                <p class="glass-panel rounded-2xl p-6 text-base border-l-4 border-l-secondary">
+                  Our approach is direct: clear scope, documented recommendations, and practical implementation support. We aim to strengthen your financial position and operating rhythm without unnecessary complexity.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services" class="relative py-20">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+            <div class="inline-flex items-center gap-2 rounded-full bg-white/50 border border-white/60 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-secondary mb-4">Services</div>
+            <h2 class="text-3xl font-extrabold tracking-tight text-primary sm:text-4xl">Professional Services</h2>
+            <p class="mt-4 text-lg text-muted">Integrated support across advisory, finance, regulatory compliance, and facilities maintenance.</p>
+          </div>
+          
+          <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <!-- Service Cards -->
+            <article class="glass-card rounded-2xl p-8 group reveal" style="transition-delay: 0.1s;">
+              <div class="h-10 w-10 rounded-xl bg-primary/5 flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
+                <span class="text-sm font-bold tabular-nums text-accent">01</span>
+              </div>
+              <h3 class="text-lg font-bold tracking-tight text-primary mb-3">Cleaning Services</h3>
+              <p class="text-sm leading-relaxed text-muted">Corporate and commercial premises maintained to a consistent professional standard.</p>
+            </article>
+            
+            <article class="glass-card rounded-2xl p-8 group reveal" style="transition-delay: 0.2s;">
+              <div class="h-10 w-10 rounded-xl bg-primary/5 flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
+                <span class="text-sm font-bold tabular-nums text-accent">02</span>
+              </div>
+              <h3 class="text-lg font-bold tracking-tight text-primary mb-3">Financial Advisory</h3>
+              <p class="text-sm leading-relaxed text-muted">Strategic counsel on capital structure, performance, and long range financial priorities.</p>
+            </article>
+
+            <article class="glass-card rounded-2xl p-8 group reveal" style="transition-delay: 0.3s;">
+              <div class="h-10 w-10 rounded-xl bg-primary/5 flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
+                <span class="text-sm font-bold tabular-nums text-accent">03</span>
+              </div>
+              <h3 class="text-lg font-bold tracking-tight text-primary mb-3">Accounting</h3>
+              <p class="text-sm leading-relaxed text-muted">Bookkeeping, management accounts, and reporting prepared for audit readiness and decision support.</p>
+            </article>
+
+            <article class="glass-card rounded-2xl p-8 group reveal" style="transition-delay: 0.4s;">
+              <div class="h-10 w-10 rounded-xl bg-primary/5 flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
+                <span class="text-sm font-bold tabular-nums text-accent">04</span>
+              </div>
+              <h3 class="text-lg font-bold tracking-tight text-primary mb-3">Tax Support</h3>
+              <p class="text-sm leading-relaxed text-muted">Assistance with tax compliance, filings, registrations, and correspondence with revenue authorities.</p>
+            </article>
+
+            <article class="glass-card rounded-2xl p-8 group reveal" style="transition-delay: 0.1s;">
+              <div class="h-10 w-10 rounded-xl bg-primary/5 flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
+                <span class="text-sm font-bold tabular-nums text-accent">05</span>
+              </div>
+              <h3 class="text-lg font-bold tracking-tight text-primary mb-3">Financial Planning</h3>
+              <p class="text-sm leading-relaxed text-muted">Forecasting, budgeting, and scenario planning aligned to your operating model and risk appetite.</p>
+            </article>
+
+            <article class="glass-card rounded-2xl p-8 group reveal" style="transition-delay: 0.2s;">
+              <div class="h-10 w-10 rounded-xl bg-primary/5 flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
+                <span class="text-sm font-bold tabular-nums text-accent">06</span>
+              </div>
+              <h3 class="text-lg font-bold tracking-tight text-primary mb-3">Business Consulting</h3>
+              <p class="text-sm leading-relaxed text-muted">Board level and management advisory on strategy, performance, and organisational design.</p>
+            </article>
+
+            <article class="glass-card rounded-2xl p-8 group reveal" style="transition-delay: 0.3s;">
+              <div class="h-10 w-10 rounded-xl bg-primary/5 flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
+                <span class="text-sm font-bold tabular-nums text-accent">07</span>
+              </div>
+              <h3 class="text-lg font-bold tracking-tight text-primary mb-3">Management Consulting</h3>
+              <p class="text-sm leading-relaxed text-muted">Interim leadership support, operating model refinement, and performance management systems.</p>
+            </article>
+
+            <article class="glass-card rounded-2xl p-8 group reveal" style="transition-delay: 0.4s;">
+              <div class="h-10 w-10 rounded-xl bg-primary/5 flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
+                <span class="text-sm font-bold tabular-nums text-accent">08</span>
+              </div>
+              <h3 class="text-lg font-bold tracking-tight text-primary mb-3">SME Advisory</h3>
+              <p class="text-sm leading-relaxed text-muted">Dedicated SME programmes covering governance, growth financing, and scaling operations responsibly.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Us -->
+      <section id="why-us" class="relative py-20">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="glass-panel rounded-[2.5rem] p-8 sm:p-12 lg:p-16 reveal border-t-4 border-t-secondary">
+            <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between mb-12">
+              <div class="max-w-xl">
+                <div class="inline-flex items-center gap-2 rounded-full bg-white/50 border border-white/60 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-secondary mb-4">Why PP Ark</div>
+                <h2 class="text-3xl font-extrabold tracking-tight text-primary sm:text-4xl">Our commitment to clients</h2>
+              </div>
+              <p class="max-w-md text-lg leading-relaxed text-muted lg:text-right">We align each engagement to your governance priorities, management capacity, and reporting obligations.</p>
+            </div>
+            
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div class="glass-card rounded-2xl p-6 hover:border-secondary/50">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-4 shadow-sm">
+                  <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                </div>
+                <h3 class="text-lg font-bold text-primary mb-2">Expertise</h3>
+                <p class="text-sm leading-relaxed text-muted">Senior practitioners with relevant sector exposure and a disciplined delivery ethic.</p>
+              </div>
+              
+              <div class="glass-card rounded-2xl p-6 hover:border-secondary/50">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-4 shadow-sm">
+                  <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <h3 class="text-lg font-bold text-primary mb-2">Reliability</h3>
+                <p class="text-sm leading-relaxed text-muted">Predictable response times, documented milestones, and transparent communication throughout.</p>
+              </div>
+
+              <div class="glass-card rounded-2xl p-6 hover:border-secondary/50">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-4 shadow-sm">
+                  <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </div>
+                <h3 class="text-lg font-bold text-primary mb-2">SME Lens</h3>
+                <p class="text-sm leading-relaxed text-muted">Solutions proportionate to the resources and risk profile of enterprises led by their owners.</p>
+              </div>
+
+              <div class="glass-card rounded-2xl p-6 hover:border-secondary/50">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-4 shadow-sm">
+                  <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                </div>
+                <h3 class="text-lg font-bold text-primary mb-2">Financial Clarity</h3>
+                <p class="text-sm leading-relaxed text-muted">Management information that supports capital allocation, performance review, and investor reporting.</p>
+              </div>
+
+              <div class="glass-card rounded-2xl p-6 hover:border-secondary/50">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-4 shadow-sm">
+                  <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                </div>
+                <h3 class="text-lg font-bold text-primary mb-2">Operational Calm</h3>
+                <p class="text-sm leading-relaxed text-muted">Process design and controls that reduce friction between policy and front line execution.</p>
+              </div>
+
+              <div class="glass-card rounded-2xl p-6 hover:border-secondary/50">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-4 shadow-sm">
+                  <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="text-lg font-bold text-primary mb-2">Your Goals First</h3>
+                <p class="text-sm leading-relaxed text-muted">Mandates scoped to your strategic objectives and measured against agreed outcomes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Industries -->
+      <section id="industries" class="relative py-16">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 text-center reveal">
+          <div class="inline-flex items-center gap-2 rounded-full bg-white/50 border border-white/60 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-secondary mb-4">Industries</div>
+          <h2 class="text-3xl font-extrabold tracking-tight text-primary sm:text-4xl mb-10">Sectors we serve</h2>
+          
+          <div class="flex flex-wrap justify-center gap-4">
+            <span class="glass-card rounded-full px-6 py-3 text-sm font-bold text-primary hover:text-secondary cursor-default">SMEs</span>
+            <span class="glass-card rounded-full px-6 py-3 text-sm font-bold text-primary hover:text-secondary cursor-default">Retail</span>
+            <span class="glass-card rounded-full px-6 py-3 text-sm font-bold text-primary hover:text-secondary cursor-default">Professional Services</span>
+            <span class="glass-card rounded-full px-6 py-3 text-sm font-bold text-primary hover:text-secondary cursor-default">Entrepreneurs</span>
+            <span class="glass-card rounded-full px-6 py-3 text-sm font-bold text-primary hover:text-secondary cursor-default">Commercial</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="relative py-20">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="grid gap-12 lg:grid-cols-12 lg:gap-16">
+            <div class="lg:col-span-5 reveal">
+              <div class="inline-flex items-center gap-2 rounded-full bg-white/50 border border-white/60 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-secondary mb-4">Contact</div>
+              <h2 class="text-3xl font-extrabold tracking-tight text-primary sm:text-4xl">Contact the firm</h2>
+              <p class="mt-4 text-lg text-muted">Share a brief description of your requirement. A consultant will respond with next steps and, where appropriate, a proposed scope of work.</p>
+              
+              <div class="mt-10 space-y-6">
+                <a href="tel:+233202776330" class="glass-card flex items-center gap-5 rounded-2xl p-5 group">
+                  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white shadow-sm group-hover:bg-primary group-hover:text-white transition-colors text-secondary">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.92z" /></svg>
+                  </div>
+                  <div>
+                    <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-muted">Telephone</p>
+                    <p class="text-lg font-bold text-primary group-hover:text-secondary transition-colors">Call us</p>
+                    <p class="text-sm font-medium text-muted">020 277 6330</p>
+                  </div>
+                </a>
+
+                <div class="glass-card flex items-center gap-5 rounded-2xl p-5">
+                  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white shadow-sm text-secondary">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
+                  </div>
+                  <div>
+                    <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-muted">Registered Office</p>
+                    <p class="text-lg font-bold text-primary">Lartebiokorshie</p>
+                    <p class="text-sm font-medium text-muted">Accra, Ghana</p>
+                  </div>
+                </div>
+
+                <a href="https://wa.me/233202776330" target="_blank" rel="noopener noreferrer" class="glass-card flex items-center justify-center gap-3 rounded-2xl p-4 text-primary font-bold hover:text-secondary hover:border-secondary transition-all">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                  Message us on WhatsApp
+                </a>
+              </div>
+            </div>
+
+            <div class="lg:col-span-7 reveal" style="transition-delay: 0.2s;">
+              <form id="consultation-form" class="glass-panel rounded-[2rem] p-8 sm:p-10 shadow-xl border-t-4 border-t-primary">
+                <h3 class="text-2xl font-bold text-primary mb-8">Request a Consultation</h3>
+                <div class="grid gap-6 sm:grid-cols-2">
+                  <div class="space-y-2 sm:col-span-1">
+                    <label class="text-xs font-bold uppercase tracking-wide text-primaryLight ml-1">Full legal name</label>
+                    <input type="text" name="full-name" class="glass-input w-full rounded-xl px-4 py-3.5 text-sm text-ink outline-none" required placeholder="Jane Doe" />
+                  </div>
+                  <div class="space-y-2 sm:col-span-1">
+                    <label class="text-xs font-bold uppercase tracking-wide text-primaryLight ml-1">Organisation</label>
+                    <input type="text" name="business-name" class="glass-input w-full rounded-xl px-4 py-3.5 text-sm text-ink outline-none" placeholder="Company Ltd" />
+                  </div>
+                  <div class="space-y-2 sm:col-span-1">
+                    <label class="text-xs font-bold uppercase tracking-wide text-primaryLight ml-1">Telephone number</label>
+                    <input type="tel" name="phone" class="glass-input w-full rounded-xl px-4 py-3.5 text-sm text-ink outline-none" required placeholder="+233 20 277 6330" />
+                  </div>
+                  <div class="space-y-2 sm:col-span-1">
+                    <label class="text-xs font-bold uppercase tracking-wide text-primaryLight ml-1">Email address</label>
+                    <input type="email" name="email" class="glass-input w-full rounded-xl px-4 py-3.5 text-sm text-ink outline-none" placeholder="jane@example.com" />
+                  </div>
+                  <div class="space-y-2 sm:col-span-2">
+                    <label class="text-xs font-bold uppercase tracking-wide text-primaryLight ml-1">Service required</label>
+                    <select name="service" class="glass-input w-full rounded-xl px-4 py-3.5 text-sm text-ink outline-none appearance-none cursor-pointer">
+                      <option>Cleaning Services</option>
+                      <option>Financial Advisory</option>
+                      <option>Accounting</option>
+                      <option>Tax Support</option>
+                      <option>Financial Planning</option>
+                      <option>Business Consulting</option>
+                      <option>Management Consulting</option>
+                      <option>SME Advisory</option>
+                    </select>
+                  </div>
+                  <div class="space-y-2 sm:col-span-2">
+                    <label class="text-xs font-bold uppercase tracking-wide text-primaryLight ml-1">Your enquiry</label>
+                    <textarea name="message" rows="4" class="glass-input w-full rounded-xl px-4 py-3.5 text-sm text-ink outline-none resize-none" placeholder="Briefly describe your requirements..."></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="mt-8 w-full rounded-xl bg-primary py-4 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:bg-primaryLight hover:shadow-xl hover:-translate-y-1">
+                  Submit Enquiry
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="relative mt-10 border-t border-white/40 glass-panel rounded-t-[3rem] overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-b from-white/40 to-white/10 pointer-events-none"></div>
+      <div class="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="grid gap-12 lg:grid-cols-12 lg:gap-8">
+          <div class="lg:col-span-5">
+            <img src="public/logo.png" alt="PP Ark Consult and Investment" class="h-12 w-auto sm:h-14 mb-6" />
+            <p class="max-w-sm text-sm leading-relaxed text-primaryLight font-medium">
+              Professional advisory and operational support for enterprises and SMEs across Ghana.
+            </p>
+          </div>
+          <div class="lg:col-span-3">
+            <h3 class="text-xs font-bold uppercase tracking-[0.2em] text-secondary mb-6">Reach us</h3>
+            <a href="tel:+233202776330" class="block text-sm font-bold text-primary hover:text-secondary transition-colors">Call us</a>
+            <p class="mt-1 text-sm text-primaryLight">020 277 6330</p>
+            <p class="mt-4 text-sm text-primaryLight">Lartebiokorshie, Accra, Ghana</p>
+          </div>
+          <div class="lg:col-span-2">
+            <h3 class="text-xs font-bold uppercase tracking-[0.2em] text-secondary mb-6">Explore</h3>
+            <ul class="space-y-3">
+              <li><a href="#about" class="text-sm font-medium text-primaryLight hover:text-secondary transition-colors">About</a></li>
+              <li><a href="#services" class="text-sm font-medium text-primaryLight hover:text-secondary transition-colors">Services</a></li>
+              <li><a href="#contact" class="text-sm font-medium text-primaryLight hover:text-secondary transition-colors">Contact</a></li>
+            </ul>
+          </div>
+          <div class="lg:col-span-2">
+            <h3 class="text-xs font-bold uppercase tracking-[0.2em] text-secondary mb-6">Social</h3>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-sm font-medium text-primaryLight hover:text-secondary transition-colors">LinkedIn</a></li>
+              <li><a href="#" class="text-sm font-medium text-primaryLight hover:text-secondary transition-colors">Facebook</a></li>
+              <li><a href="#" class="text-sm font-medium text-primaryLight hover:text-secondary transition-colors">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-16 border-t border-white/40 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p class="text-xs font-medium text-primaryLight">
+            © <span id="year"></span> PP Ark Consult and Investment. All rights reserved.
+          </p>
+          <div class="flex gap-4 text-xs font-medium text-primaryLight">
+            <a href="#" class="hover:text-secondary transition-colors">Privacy Policy</a>
+            <a href="#" class="hover:text-secondary transition-colors">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mobile Floating Action Bar -->
+    <div class="fixed inset-x-4 bottom-4 z-50 md:hidden pointer-events-none">
+      <div class="glass-panel mx-auto flex max-w-md gap-3 rounded-full p-2 shadow-2xl pointer-events-auto border border-white/60">
+        <a href="tel:+233202776330" class="flex-1 rounded-full bg-primary py-3.5 text-center text-sm font-bold text-white shadow-md active:scale-95 transition-transform">Call us</a>
+        <a href="https://wa.me/233202776330" target="_blank" rel="noopener noreferrer" class="flex-1 rounded-full bg-white border border-slate-200 py-3.5 text-center text-sm font-bold text-primary shadow-sm active:scale-95 transition-transform flex items-center justify-center gap-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <script>
+      // Set current year
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // Form submission
+      document.getElementById("consultation-form").addEventListener("submit", (event) => {
+        event.preventDefault();
+        
+        // Simple success state animation
+        const btn = event.target.querySelector('button[type="submit"]');
+        const originalText = btn.textContent;
+        
+        btn.textContent = "Sent Successfully!";
+        btn.classList.add("bg-secondary");
+        btn.classList.remove("bg-primary");
+        
+        setTimeout(() => {
+          btn.textContent = originalText;
+          btn.classList.remove("bg-secondary");
+          btn.classList.add("bg-primary");
+          event.target.reset();
+        }, 3000);
+      });
+
+      // Scroll Reveal Animation
+      const revealElements = document.querySelectorAll('.reveal');
+      
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px"
+      });
+
+      revealElements.forEach(el => revealObserver.observe(el));
+
+      // Header Scroll Effect
+      const header = document.getElementById('main-header');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          header.classList.add('shadow-glassHover', 'bg-white/80');
+          header.classList.remove('bg-white/60');
+        } else {
+          header.classList.remove('shadow-glassHover', 'bg-white/80');
+          header.classList.add('bg-white/60');
+        }
+      });
+    </script>
+  </body>
+</html>
